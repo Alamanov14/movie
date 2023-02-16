@@ -1,0 +1,36 @@
+body {
+  background: black;
+  color: rgb(210, 194, 87);
+}
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.card {
+  border: 1px solid rgb(186, 37, 117);
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+  width: 400px;
+  margin-top: 45px;
+}
+.card:hover {
+  /* transform: translate(42px); */
+  cursor: pointer;
+  transition: 0.7s;
+  width: 450px;
+}
+
+.movie-img:hover {
+  /* transform: translate(42px); */
+  cursor: pointer;
+  transition: 0.7s;
+  width: 450px;
+}
+.movie-title:hover {
+  /* transform: translate(42px); */
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.7s;
+}
